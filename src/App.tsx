@@ -1,22 +1,17 @@
 import React from 'react';
+import { Routes, Route, BrowserRouter } from 'react-router-dom';
+import { Page1, Page2, Page3, Page4 } from './pages';
 
 const App = () => {
   return (
-      <div className="App">
-        <header className="App-header">
-          <p>
-            Edit <code>src/App.tsx</code> and save to reload.
-          </p>
-          <a
-              className="App-link"
-              href="https://reactjs.org"
-              target="_blank"
-              rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
-        </header>
-      </div>
+      <BrowserRouter>
+          <Routes>
+              <Route path='/' element={ <Page1 /> }/>
+              <Route path='/page-2' element={ <Page2 /> }/>
+              <Route path='/page-3' element={ <Page3 /> }/>
+              <Route path='/page-4' element={ <Page4 /> }/>
+          </Routes>
+      </BrowserRouter>
   );
 }
 
