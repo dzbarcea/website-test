@@ -1,0 +1,31 @@
+.hover-top, .hover-bottom, .hover-left, .hover-right {
+    position: absolute;
+}
+
+.hover-top {
+    top: 0;
+    width: 90%;
+    height: 5%;
+    background: red;
+}
+
+.hover-bottom {
+    bottom: 0;
+    width: 90%;
+    height: 5%;
+    background: red;
+}
+
+.hover-left {
+    left: 0;
+    height: 90%;
+    width: 5%;
+    background: red;
+}
+
+.hover-right {
+    right: 0;
+    height: 90%;
+    width: 5%;
+    background: red;
+}
