@@ -17,4 +17,7 @@ html, body {
   justify-content: center;
   align-items: center;
   flex-grow: 1;
+
+  background-size: 150%;
+  background-image: url(https://gratisography.com/wp-content/uploads/2024/10/gratisography-cool-cat-800x525.jpg);
 }
