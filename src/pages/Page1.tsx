@@ -21,8 +21,8 @@ export const Page1 = (props: Page1Props) => {
         const y = e.clientY / innerHeight - 0.5;
 
         // Apply a quadratic effect
-        const xOffset = Math.sign(x) * Math.pow(Math.abs(x), 2) * 500; // Adjust 20 for sensitivity
-        const yOffset = Math.sign(y) * Math.pow(Math.abs(y), 2) * 500; // Adjust 20 for sensitivity
+        const xOffset = Math.sign(x) * Math.pow(Math.abs(x), 2) * 100; // Adjust 20 for sensitivity
+        const yOffset = Math.sign(y) * Math.pow(Math.abs(y), 2) * 100; // Adjust 20 for sensitivity
 
         setOffset({ x: xOffset, y: yOffset });
     }
