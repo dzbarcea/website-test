@@ -12,12 +12,12 @@ html, body {
   flex-direction: column;
 }
 
-.body-container {
+.moving-background {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-grow: 1;
 
   background-size: 150%;
-  background-image: url(https://gratisography.com/wp-content/uploads/2024/10/gratisography-cool-cat-800x525.jpg);
+  background-image: url(https://t4.ftcdn.net/jpg/07/62/97/85/360_F_762978547_GvdI9ynWM8oDKlYGkPSGSCnhAiMBuicc.jpg);
 }
